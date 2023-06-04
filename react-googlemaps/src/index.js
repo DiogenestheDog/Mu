@@ -1,8 +1,10 @@
-import React from 'react';
+//import * as dotenv from 'dotenv';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from 'react';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+console.log("honk" + process.env.REACT_APP_MAP_KEY);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
